@@ -1,0 +1,55 @@
+{
+  "Windsurf 使い方": [
+    {"keyword": "Windsurf 始め方 2026", "priority": "high", "status": "pending"},
+    {"keyword": "Windsurf インストール セットアップ", "priority": "high", "status": "pending"},
+    {"keyword": "Windsurf 無料版でできること", "priority": "high", "status": "pending"},
+    {"keyword": "Windsurf エディタ 基本操作", "priority": "medium", "status": "pending"},
+    {"keyword": "Windsurf VS Code 移行ガイド", "priority": "medium", "status": "pending"}
+  ],
+  "Windsurf 料金・プラン": [
+    {"keyword": "Windsurf 料金 プラン比較 2026", "priority": "high", "status": "pending"},
+    {"keyword": "Windsurf Pro $15 月額 コスパ", "priority": "high", "status": "pending"},
+    {"keyword": "Windsurf 無料 有料 違い", "priority": "high", "status": "pending"},
+    {"keyword": "Windsurf チーム プラン 企業向け", "priority": "medium", "status": "pending"}
+  ],
+  "Windsurf vs Cursor": [
+    {"keyword": "Windsurf Cursor 比較 2026年最新", "priority": "high", "status": "pending"},
+    {"keyword": "Windsurf vs Cursor どっちがいい", "priority": "high", "status": "pending"},
+    {"keyword": "Windsurf Cursor 乗り換え 理由", "priority": "medium", "status": "pending"},
+    {"keyword": "AIコードエディタ 選び方 ポイント", "priority": "medium", "status": "pending"}
+  ],
+  "Windsurf 最新ニュース": [
+    {"keyword": "Windsurf Devin買収 何が変わった", "priority": "high", "status": "pending"},
+    {"keyword": "Windsurf 最新アップデート 2026", "priority": "high", "status": "pending"},
+    {"keyword": "Codeium Windsurf ブランド変更 経緯", "priority": "high", "status": "pending"},
+    {"keyword": "Windsurf 新機能 リリースノート", "priority": "medium", "status": "pending"},
+    {"keyword": "Windsurf エンタープライズ 導入事例", "priority": "medium", "status": "pending"}
+  ],
+  "Cascade機能": [
+    {"keyword": "Windsurf Cascade 使い方 完全ガイド", "priority": "high", "status": "pending"},
+    {"keyword": "Cascade 自律リファクタリング 実践", "priority": "high", "status": "pending"},
+    {"keyword": "Cascade マルチファイル編集 テクニック", "priority": "high", "status": "pending"},
+    {"keyword": "Cascade AIエージェント 活用法", "priority": "medium", "status": "pending"},
+    {"keyword": "Cascade コードレビュー 自動化", "priority": "medium", "status": "pending"}
+  ],
+  "Windsurf テクニック": [
+    {"keyword": "Windsurf 大規模コードベース 最適化", "priority": "high", "status": "pending"},
+    {"keyword": "Windsurf ショートカット 効率化", "priority": "medium", "status": "pending"},
+    {"keyword": "Windsurf 拡張機能 おすすめ", "priority": "medium", "status": "pending"},
+    {"keyword": "Windsurf デバッグ AI支援", "priority": "medium", "status": "pending"},
+    {"keyword": "Windsurf Git連携 ワークフロー", "priority": "low", "status": "pending"}
+  ],
+  "AIコードエディタ比較": [
+    {"keyword": "AIコードエディタ おすすめ 2026", "priority": "high", "status": "pending"},
+    {"keyword": "Windsurf vs Copilot vs Cursor 比較", "priority": "high", "status": "pending"},
+    {"keyword": "Windsurf vs Cline 比較", "priority": "medium", "status": "pending"},
+    {"keyword": "AI IDE 開発効率 比較ベンチマーク", "priority": "medium", "status": "pending"}
+  ],
+  "Windsurf 活用事例": [
+    {"keyword": "Windsurf チーム開発 導入事例", "priority": "high", "status": "pending"},
+    {"keyword": "Windsurf 個人開発 生産性向上", "priority": "high", "status": "pending"},
+    {"keyword": "Windsurf フルスタック開発 活用", "priority": "medium", "status": "pending"},
+    {"keyword": "Windsurf Python 開発 活用術", "priority": "medium", "status": "pending"},
+    {"keyword": "Windsurf React TypeScript 開発", "priority": "medium", "status": "pending"}
+  ]
+}

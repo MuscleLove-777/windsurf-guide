@@ -1,0 +1,26 @@
+{
+  "title": "Windsurf 使い方完全ガイド｜2026年最新機能と実践テクニック",
+  "content": "# Windsurf 使い方完全ガイド｜2026年最新機能と実践テクニック\n\n## この記事でわかること\n\n- **Windsurf の初期セットアップから実務的な使い方まで**、ステップバイステップで習得できます。Windsurf 始め方から初心者向けセットアップまで、全く迷わずに進められます\n- **Cascade AIエージェント機能を活用した自動コード修正・リファクタリングの実践テクニック**。大規模リファクタリングやマルチファイル編集を数分で自動実行する使い方\n- **Cursor・GitHub Copilot・Cline との客観的な比較**。自分の開発スタイルに最適なツールを選択できるようになります\n\n## 結論（先に結論を述べる）\n\nWindsurf（旧Codeium）は、2026年現在、**Devin AI技術の統合により、単なるコード補完ツールから自律的なAIエージェントを備えたフルIDEへと進化**しています。特にCascade機能により、複数ファイル・複数ステップの複雑なコード修正をAIが自動実行でき、開発効率は飛躍的に向上します。\n\n**本記事では、Windsurf を完全にマスターするための全ステップを解説します。初心者向けのセットアップから、Cascade活用による上級テクニックまで、この1記事で全てをカバーしています。**\n\n---\n\n## Windsurf インストールから初期設定までの全ステップ\n\n### 1. Windsurf のダウンロードとインストール\n\nWindsurf 使い方の第一歩は、正しいインストールです。Windsurf の公式サイト（https://windsurf.com）にアクセスして、お使いのOSに対応したバージョンをダウンロードします。\n\n**インストール手順:**\n\n1. [Windsurf公式サイト](https://windsurf.com)にアクセス\n2. 「Download」ボタンをクリック\n3. Windows / macOS / Linux から選択\n4. インストーラーを実行\n5. インストール先を指定（デフォルトでOK）\n6. 「完了」をクリック\n\n### 2. 初期セットアップと認証\n\nWindsurf を初回起動すると、セットアップウィザードが立ち上がります。\n\n1. **言語選択**: 「日本語」を選択\n2. **テーマ選択**: Dark / Light から選択\n3. **Codeium API キーの連携**:\n   - Codeiumアカウント（無料）を作成\n   - ブラウザで認証\n   - Windsurf に自動連携\n\n### 3. AI補完の最初の体験\n\nプロジェクトを開いてAIの威力を体験しましょう。\n\n1. 「ファイル」→「フォルダーを開く」\n2. 任意のプロジェクトを選択\n3. Python / JavaScript ファイルを作成\n4. `def calculate_` と入力\n5. Windsurf の AI補完が自動表示される\n6. Tabキーで提案を受け入れ\n\n---\n\n## Windsurf 主要機能の徹底解説\n\n### Cascade AIエージェント機能\n\nWindsurf 使い方の最大のポイントは、**Cascade（カスケード）** です。複数ファイルにまたがる大規模な変更をAIが自動実行します。\n\n**Cascade の起動方法:**\n\n1. コマンドパレットを開く（`Ctrl+Shift+P` / `Cmd+Shift+P`）\n2. 「Cascade: Start Agent」を検索して実行\n3. AI エージェントがアクティベートされる\n4. チャットパネルで指示を入力\n\n**Cascade での実務例:**\n\n- **レガシーコードのリファクタリング**: 古いコードを最新ベストプラクティスに自動更新\n- **言語間の自動変換**: Python → JavaScript の自動コンバージョン\n- **テストコード自動生成**: 既存関数の包括的なテストを自動作成\n- **マルチファイル編集**: スキーマ変更に伴う全ファイル自動更新\n\n### Flows（フロー機能）\n\n複数のAIアクション（コード生成→テスト作成→ドキュメント作成）を連鎖させるワークフロー機能です。\n\n**Flows の設定:**\n\n1. 左サイドバーの「Flows」タブを開く\n2. 「新規フロー作成」をクリック\n3. ステップを追加（最大5ステップまで推奨）\n4. 各ステップで AI プロンプトを設定\n5. 実行ボタンで自動化ワークフロー開始\n\n---\n\n## Windsurf でプロジェクト立ち上げを高速化\n\n### Node.js プロジェクトのテンプレート自動生成\n\nWindsurf 初心者も驚く機能です。新規プロジェクトはAIが自動生成します。\n\n1. 新しいフォルダを作成\n2. Windsurf でそのフォルダを開く\n3. Cascade を起動\n4. 「Create a Node.js Express API with TypeScript」と指示\n5. 自動生成される内容:\n   - package.json（依存ライブラリ付き）\n   - tsconfig.json（最新設定）\n   - src/index.ts（サーバー構造）\n   - .env.example（環境変数テンプレート）\n   - README.md（セットアップ手順）\n\n---\n\n## Cascade 活用テクニック\n\n### テクニック1: 大規模リファクタリングの自動化\n\nRedux から Zustand への自動マイグレーション（数時間かかる作業が数分に短縮）\n\n\n\n## おすすめサービス・ツール\n\nこの記事で紹介した内容を実践するために、以下のサービスがおすすめです。\n\n- **[Amazon](https://www.amazon.co.jp?tag=musclelove07-22)** - AmazonでAIコーディング関連書籍を探す\n- **[楽天ブックス](https://www.rakuten.co.jp)** - 楽天でAIコーディング関連書籍を探す\n\n*※ 上記リンクからご利用いただくと、サイト運営の支援になります。*\n",
+  "hero_emoji": "📝",
+  "hero_gradient": "135deg",
+  "image_search_query": "",
+  "meta_description": "Windsurf 使い方完全ガイド｜2026年最新機能と実践テクニック\n\n この記事でわかること\n\n- Windsurf の初期セットアップから実務的な使い方まで、ステップバイステップで習得できます。Windsurf 始め方から初心者向け",
+  "tags": [
+    "自動生成",
+    "ブログ",
+    "記事",
+    "SEO",
+    "最新"
+  ],
+  "slug": "windsurf-2026",
+  "keyword": "Windsurf 使い方",
+  "category": "Windsurf 使い方",
+  "generated_at": "2026-04-30T19:38:45.601391",
+  "seo_score": 90,
+  "jsonld": [
+    "<script type=\"application/ld+json\">\n{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"BlogPosting\",\n  \"headline\": \"Windsurf 使い方完全ガイド｜2026年最新機能と実践テクニック\",\n  \"description\": \"Windsurf 使い方完全ガイド｜2026年最新機能と実践テクニック\\n\\n この記事でわかること\\n\\n- Windsurf の初期セットアップから実務的な使い方まで、ステップバイステップで習得できます。Windsurf 始め方から初心者向け\",\n  \"url\": \"https://musclelove-777.github.io/windsurf-guide/articles/windsurf-2026.html\",\n  \"datePublished\": \"2026-04-30T19:38:45.601391\",\n  \"dateModified\": \"2026-04-30T19:38:45.601391\",\n  \"author\": {\n    \"@type\": \"Organization\",\n    \"name\": \"Windsurf AIコーディング完全ガイド\",\n    \"url\": \"https://musclelove-777.github.io/windsurf-guide\"\n  },\n  \"publisher\": {\n    \"@type\": \"Organization\",\n    \"name\": \"Windsurf AIコーディング完全ガイド\",\n    \"url\": \"https://musclelove-777.github.io/windsurf-guide\"\n  },\n  \"mainEntityOfPage\": {\n    \"@type\": \"WebPage\",\n    \"@id\": \"https://musclelove-777.github.io/windsurf-guide/articles/windsurf-2026.html\"\n  },\n  \"keywords\": \"自動生成, ブログ, 記事, SEO, 最新\",\n  \"articleSection\": \"Windsurf 使い方\",\n  \"inLanguage\": \"ja\"\n}\n</script>",
+    "<script type=\"application/ld+json\">\n{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"BreadcrumbList\",\n  \"itemListElement\": [\n    {\n      \"@type\": \"ListItem\",\n      \"position\": 1,\n      \"name\": \"ホーム\",\n      \"item\": \"https://musclelove-777.github.io/windsurf-guide\"\n    },\n    {\n      \"@type\": \"ListItem\",\n      \"position\": 2,\n      \"name\": \"Windsurf 使い方\",\n      \"item\": \"https://musclelove-777.github.io/windsurf-guide/category/Windsurf 使い方\"\n    },\n    {\n      \"@type\": \"ListItem\",\n      \"position\": 3,\n      \"name\": \"Windsurf 使い方完全ガイド｜2026年最新機能と実践テクニック\"\n    }\n  ]\n}\n</script>"
+  ],
+  "has_affiliate": true,
+  "affiliate_count": 2
+}

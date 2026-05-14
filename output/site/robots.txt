@@ -1,4 +1,3 @@
 User-agent: *
 Allow: /
-
 Sitemap: https://musclelove-777.github.io/windsurf-guide/sitemap.xml

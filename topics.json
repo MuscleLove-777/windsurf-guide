@@ -177,7 +177,8 @@
     {
       "keyword": "Windsurf チーム開発 導入事例",
       "priority": "high",
-      "status": "pending"
+      "status": "done",
+      "done_at": "2026-05-19T10:07:56.387720"
     },
     {
       "keyword": "Windsurf 個人開発 生産性向上",

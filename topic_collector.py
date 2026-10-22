@@ -9,6 +9,11 @@ import random
 from datetime import datetime
 from pathlib import Path
 
+def _log_text(value):
+    text = json.dumps(str(value), ensure_ascii=False)[1:-1]
+    return "".join(f"\\u{ord(char):04x}" if 0x7f <= ord(char) <= 0x9f or char in "\u2028\u2029" else char for char in text)
+
+
 logger = logging.getLogger(__name__)
 
 
@@ -66,7 +71,7 @@ class TopicCollector:
                     topic["status"] = "done"
                     topic["done_at"] = datetime.now().isoformat()
                     self._save_topics()
-                    logger.info("トピック完了: [%s] %s", category, keyword)
+                    logger.info("トピック完了: [%s] %s", _log_text(category), _log_text(keyword))
                     return
 
     def _save_topics(self):

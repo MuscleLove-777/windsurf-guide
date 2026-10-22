@@ -11,6 +11,11 @@ import logging
 from datetime import datetime
 from pathlib import Path
 
+def _log_text(value):
+    text = json.dumps(str(value), ensure_ascii=False)[1:-1]
+    return "".join(f"\\u{ord(char):04x}" if 0x7f <= ord(char) <= 0x9f or char in "\u2028\u2029" else char for char in text)
+
+
 # blog_engineへのパスを追加
 sys.path.insert(0, os.path.join(os.path.dirname(__file__), '..', '..'))
 
@@ -39,7 +44,7 @@ def run(config, prompts=None):
         if not category or not keyword:
             logger.error("topics.json に未処理(pending)のトピックがありません。topics.json を補充してください。")
             sys.exit(1)
-        logger.info("選定結果 - カテゴリ: %s, キーワード: %s", category, keyword)
+        logger.info("選定結果 - カテゴリ: %s, キーワード: %s", _log_text(category), _log_text(keyword))
     except SystemExit:
         raise
     except Exception as e:
@@ -56,7 +61,7 @@ def run(config, prompts=None):
         article = generator.generate_article(
             keyword=keyword, category=category, prompts=prompts
         )
-        logger.info("記事生成完了: %s", article.get("title", "不明"))
+        logger.info("記事生成完了: %s", _log_text(article.get("title", "不明")))
 
         optimizer = WindsurfSEOOptimizer(config)
         seo_result = optimizer.check_seo_score(article)
@@ -108,16 +113,16 @@ def run(config, prompts=None):
     if tc is not None:
         try:
             tc.mark_as_done(category, keyword)
-            logger.info("トピックを done に更新: [%s] %s", category, keyword)
+            logger.info("トピックを done に更新: [%s] %s", _log_text(category), _log_text(keyword))
         except Exception as e:
             logger.warning("topics.json の更新をスキップ: %s", e)
 
     # 完了
     duration = (datetime.now() - start_time).total_seconds()
     logger.info("=== 自動生成完了（%.1f秒） ===", duration)
-    logger.info("  カテゴリ: %s", category)
-    logger.info("  キーワード: %s", keyword)
-    logger.info("  タイトル: %s", article.get("title", "不明"))
+    logger.info("  カテゴリ: %s", _log_text(category))
+    logger.info("  キーワード: %s", _log_text(keyword))
+    logger.info("  タイトル: %s", _log_text(article.get("title", "不明")))
     logger.info("  SEOスコア: %d/100", article.get("seo_score", 0))
 
 
